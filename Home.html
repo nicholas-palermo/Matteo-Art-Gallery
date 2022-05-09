@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matteo Gallery Exhibition</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/758c54b775.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Dancing+Script">
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Staatliches">
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Quicksand">
+    <!-- BootStrap Reference -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="/script.js"></script>
+</head>
+<body class="home">
+    <!-- Navigation -->
+
+      <!--NavBar-->
+      <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <!--<div class="container mx-0">-->
+            <a class="navbar-brand" href="/HTML/Home.html">
+                <h1>Matteo Art Gallery</h1>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/Home.html" style="background-color: rgb(222, 103, 110);">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/My-Artwork.html" style="background-color: rgb(62, 97, 71);">My Artwork</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/Guest-Artwork.html" style="background-color: rgb(87, 77, 150);">Guest Artwork</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/Art-HowTo's.html" style="background-color: rgb(81, 173, 180);">Art How-To's</a>
+                    </li>
+                </ul>
+            </div>
+      </nav>
+
+      <!--Vertical Nav-->
+      <nav class="verticalNav dotstyle dotstyle-stroke">
+        <ul>
+            <li id="dot1" class="current" onclick="makeCurrent(1)"><a href="#home-section1"></a></li>
+            <li id="dot2"><a href="#home-section2" onclick="makeCurrent(2)"></a></li>
+            <li id="dot3"><a href="#home-section3" onclick="makeCurrent(3)"></a></li>
+            <li id="dot4"><a href="#home-section4" onclick="makeCurrent(4)"></a></li>
+            <li id="dot5"><a href="#home-section5" onclick="makeCurrent(5)"></a></li>
+            <li id="dot6"><a href="#home-section6" onclick="makeCurrent(6)"></a></li>
+        </ul>
+      </nav>
+
+    <!-- Hero - Section 1 -->
+    <section id="home-section1" class="home-section section">
+      <h1 style="font-family: 'Dancing Script', serif; font-size: 10vh; font-weight: bold; text-transform: lowercase;">Welcome to the</h1>
+      <h1 style="font-family: 'Staatliches', serif;">Matteo Art Gallery</h1>
+      <p style="font-family: 'Staatliches', serif;">Featured Artwork</p>
+      <a href="#home-section2"><i class="fa-solid fa-angle-down"></i></a>
+    </section>
+
+    <!-- FP: Paper Mache - Section 2 -->
+    <section id="home-section2" class="section feat-project">
+      <div id="sec2row1" class="row subtitle">
+        <div class="col">
+          <h1>Paper Mache</h1>
+        </div>
+      </div>
+      <div id="sec2row2" class="row">
+          <p>Paper mache is a popular crafting technique that uses paper and a paste to create a variety of objects. The method is named after the French term for “chewed paper,” which makes sense given the steps needed for any paper mache project. 
+             Paper mache is the layering of moistened paper and other materials onto a blank surface like a balloon or cardboard. The adhesive used to wet the paper acts as a sort of glue. As the paper dries, the outer shell hardens, which can then be painted and decorated. 
+             This craft is centuries old and makes for a great art project because it is affordable and pratical. All you need is recycled paper and a simple paste to create durable items like piñatas, vases, and jewelry boxes.</p>
+      </div>
+      <div id="sec2row3" class="row">
+        <div id="sec2col1" class="col-4">
+          <div class="frame-portrait">
+            <img class="portrait" src="/Assets/MyArtwork/PaperMache_Me1.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec2col2" class="col-4">
+          <div class="frame-portrait">
+            <img class="portrait" src="/Assets/MyArtwork/PaperMache_Me2.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec2col3" class="col-4">
+          <div class="frame-portrait">
+              <img class="portrait" src="/Assets/MyArtwork/PaperMache_Me3.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FP: Collages – Section 3 -->
+    <section id="home-section3" class="section feat-project" style="background-color: rgba(155, 17, 30, 0.8);">
+      <div id="sec3row1" class="row subtitle">
+        <div class="col">
+          <h1>Collages</h1>
+        </div>
+      </div>
+      <div id="sec3row2" class="row">
+          <p>A collage is a form of visual art in which visual elements are combined to create a new image that conveys a message or idea. 
+            Collage comes from the French word “collér,” which means “to glue,” often the primary means of combining images in collage art. 
+            Collagers can draw these images from newspaper clippings or print advertisements, or cut them from different materials, like 
+            photographs, fabric, or even wood. Collagers can apply the images to the surface of another work of art, such as a canvas, to 
+            create a new single image. </p>
+      </div>
+      <div id="sec3row3" class="row">
+        <div id="sec3col1" class="col-3">
+          <div class="frame-landscape">
+            <img class="landscape" src="/Assets/MyArtwork/Collage_Me-1.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec3col2" class="col-3">
+          <div class="frame-landscape">
+              <img class="landscape" src="/Assets/MyArtwork/Collage_Me-3.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec3col3" class="col-3">
+          <div class="frame-landscape">
+              <img class="landscape" src="/Assets/MyArtwork/Collage_Me-4.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FP: Landscape Art - Section 4 -->
+    <section id="home-section4" class="section feat-project">
+      <div id="sec4row1" class="row subtitle">
+        <div class="col">
+          <h1>Landscape Art</h1>
+        </div>
+      </div>
+      <div id="sec4row2" class="row">
+          <p>Landscape painting and drawing is the depiction of natural scenery in art. Landscape paintings may capture mountains, 
+            valleys, bodies of water, fields, forests, and coasts and may or may not include man-made structures as well as people.
+           <br><br>Although paintings from the earliest ancient and Classical periods included natural scenic elements, landscape as an 
+            independent genre did not emerge in the Western tradition until the Renaissance in the 16th century. In the Eastern tradition, 
+            the genre can be traced back to 4th-century-CE China.</p>
+      </div>
+      <div id="sec4row3" class="row">
+        <div id="sec4col1" class="col-3">
+          <div class="frame-landscape">
+            <img class="landscape" src="/Assets/MyArtwork/Landscape_Me1.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec4col2" class="col-3">
+          <div class="frame-landscape">
+              <img class="landscape" src="/Assets/MyArtwork/Landscape_Me2.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec4col3" class="col-3">
+          <div class="frame-landscape">
+              <img class="landscape" src="/Assets/MyArtwork/Landscape_Me3.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FP: Print Making - Section 5-->
+    <section id="home-section5" class="section feat-project">
+      <div id="sec5row1" class="row subtitle">
+        <div class="col">
+          <h1>Printmaking</h1>
+        </div>
+      </div>
+      <div id="sec5row2" class="row">
+          <p>Printmaking is an artistic process that requires transferring images from a matrix onto another surface, most often paper or 
+            fabric. Traditional printmaking techniques include woodcut, etching, engraving, and lithography, while modern artists have 
+            expanded available techniques to include screenprinting.
+            <br><br>
+            A matrix is a template, and can be made of wood, metal, or glass. The design is created on the matrix by working its flat 
+            surface with either tools or chemicals. The matrix is then inked in order to transfer it onto the desired surface. To print 
+            from a matrix requires the application of controlled pressure, most often achieved by using a printing press, which creates 
+            an even impression of the design when it is printed onto the paper or fabric. (More modern printmaking techniques, such as 
+            screenprinting, do not require a press.) The resulting print is often the mirror image of the original design on the matrix. 
+            One of the great benefits of printmaking (save for monotype) is that multiple impressions of the same design can be printed 
+            from a single matrix.</p>
+      </div>
+      <div id="sec5row3" class="row">
+        <div id="sec5col1" class="col-3">
+          <div class="frame-landscape">
+            <img class="landscape" src="/Assets/MyArtwork/PrintMaking_Me1.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec5col2" class="col-3">
+          <div class="frame-landscape">
+              <img class="landscape" src="/Assets/MyArtwork/Printmaking_Me4.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec5col3" class="col-3">
+          <div class="frame-landscape">
+              <img class="landscape" src="/Assets/MyArtwork/Printmaking_Me7.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--FP: Paper Making - Section 6-->
+    <section id="home-section6" class="section feat-project" style="background-color: rgba(255, 173, 1, 0.5);">
+      <div id="sec6row1" class="row subtitle">
+        <div class="col">
+          <h1>Papermaking</h1>
+        </div>
+      </div>
+      <div id="sec6row2" class="row">
+          <p>Papermaking is the creation of paper and cardboard, which are used widely for printing, writing, and packaging, among many 
+            other purposes. Today almost all paper is made using industrial machinery, but creating paper by hand survives as a specialized 
+            craft and a medium for artistic expression.
+            <br><br>
+            In papermaking, a dilute suspension consisting mostly of separate cellulose fibres in water is drained through a screen-like 
+            material, so that a mat of randomly interwoven fibres is laid down. Water is further removed from this sheet by pressing, 
+            sometimes aided by suction or vacuum, or heating. Once dry, a generally flat, uniform and strong sheet of paper is achieved. </p>
+      </div>
+      <div id="sec6row3" class="row">
+        <div id="sec6col1" class="col-3">
+          <div class="frame-landscape">
+            <img class="landscape" src="/Assets/MyArtwork/PaperMaking_Me1.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec6col2" class="col-3">
+          <div class="frame-landscape">
+              <img class="landscape" src="/Assets/MyArtwork/PaperMaking_Me3.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+        <div id="sec6col3" class="col-3">
+          <div class="frame-landscape">
+              <img class="landscape" src="/Assets/MyArtwork/PaperMaking_Me4.jpg" alt="" onclick="clickArt(this)">
+          </div>
+        </div>
+      </div>
+
+      <!-- Enlarge Modal -->
+      <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+    </section>
+</body>
+</html>
+

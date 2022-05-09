@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matteo Gallery Exhibition</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- JavaScript -->
+    <script defer src="/script.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/758c54b775.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Dancing+Script">
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Staatliches">
+    <!-- BootStrap Reference -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body class="guest-artwork">
+    <!-- Navigation -->
+
+      <!--NavBar-->
+      <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <!--<div class="container mx-0">-->
+            <a class="navbar-brand" href="/HTML/Home.html">
+                <h1>Matteo Art Gallery</h1>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/Home.html" style="background-color: rgb(222, 103, 110);">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/My-Artwork.html" style="background-color: rgb(62, 97, 71);">My Artwork</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/Guest-Artwork.html" style="background-color: rgb(87, 77, 150);">Guest Artwork</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/Art-HowTo's.html" style="background-color: rgb(81, 173, 180);">Art How-To's</a>
+                    </li>
+                </ul>
+            </div>
+      </nav>
+
+      <!-- Main Content -->
+      <section>
+
+        <div class="row title">
+          <div class="col">
+            <h1>Guest Artwork</h1>
+          </div>
+        </div>
+
+        <!-- First Row -->
+        <div id="row1" class="row">
+          <div class="col-4 col1">
+            <div class="frame-landscape">
+              <img class="landscape" src="/Assets/GuestArtwork/GuestArt-1.jpg" alt="'Heart Hands'" onclick="clickArt(this)">
+            </div>
+            <h2 class="artLabel">"Heart Hands"</h2>
+          </div>
+          <div class="col-4 col2">
+            <div class="frame-landscape">
+                <img class="landscape" src="/Assets/GuestArtwork/GuestArt-2.jpg" alt="'Valentine's Lolly'" onclick="clickArt(this)">
+            </div>
+            <h2 class="artLabel">"Valentine's Lolly"</h2>
+          </div>
+          <div class="col-4 col3">
+            <div class="frame-landscape">
+                <img class="landscape" src="/Assets/GuestArtwork/GuestArt-3.jpg" alt="'Family Tree'" onclick="clickArt(this)">
+            </div>
+            <h2 class="artLabel">"Family Tree"</h2>
+          </div>
+        </div>
+
+        <!-- Second Row -->
+        <div id="row2" class="row">
+          <div class="col-4 col1">
+            <div class="frame-landscape">
+              <img class="landscape" src="/Assets/GuestArtwork/GuestArt-4.jpg" alt="'The Color Wheel'" onclick="clickArt(this)">
+            </div>
+            <h2 class="artLabel">"The Color Wheel"</h2>
+          </div>
+          <div class="col-4 col2">
+            <div class="frame-landscape">
+                <img class="landscape" src="/Assets/GuestArtwork/GuestArt-5.jpg" alt="'Shamrock Collage'" onclick="clickArt(this)">
+            </div>
+            <h2 class="artLabel">"Shamrock Collage"</h2>
+          </div>
+          <div class="col-4 col3">
+            <div class="frame-landscape">
+                <img class="landscape" src="/Assets/GuestArtwork/GuestArt-6.jpg" alt="'Color Making'" onclick="clickArt(this)">
+            </div>
+            <h2 class="artLabel">"Color Making"</h2>
+          </div>
+        </div>
+
+        <!-- Third Row -->
+        <div id="row3" class="row">
+          <div class="col-4 col1">
+            <div class="frame-landscape">
+              <img class="landscape" src="/Assets/GuestArtwork/GuestArt-7.jpg" alt="'Easter Egg'" onclick="clickArt(this)">
+            </div>
+            <h2 class="artLabel">"Easter Egg"</h2>
+          </div>
+          <div class="col-4 col2">
+            <div class="frame-landscape">
+                <img class="landscape" src="/Assets/GuestArtwork/GuestArt-8.jpg" alt="'The Hatchling'" onclick="clickArt(this)">
+            </div>
+            <h2 class="artLabel">"The Hatchling"</h2>
+          </div>
+          <div class="col-4 col3">
+            <div class="frame-landscape">
+                <img class="landscape" src="/Assets/GuestArtwork/GuestArt-9.jpg" alt="'The Green Planet'" onclick="clickArt(this)">
+            </div>
+            <h2 class="artLabel">"The Green Planet"</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- Enlarge Modal -->
+      <div id="myModal" class="modal">
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img01">
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matteo Gallery Exhibition</title>
+    <link rel="stylesheet" href="/style.css">
+    <!-- JavaScript -->
+    <script defer src="/script.js"></script>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/758c54b775.js" crossorigin="anonymous"></script>
+    <!-- Google Fonts -->
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Dancing+Script">
+          <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Staatliches">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand">
+    <!-- BootStrap Reference -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body class="art-howtos">
+    <!-- Navigation -->
+
+      <!--NavBar-->
+      <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+        <!--<div class="container mx-0">-->
+            <a class="navbar-brand" href="/HTML/Home.html">
+                <h1>Matteo Art Gallery</h1>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/Home.html" style="background-color: rgb(222, 103, 110);">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/My-Artwork.html" style="background-color: rgb(62, 97, 71);">My Artwork</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/Guest-Artwork.html" style="background-color: rgb(87, 77, 150);">Guest Artwork</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="/Art-HowTo's.html" style="background-color: rgb(81, 173, 180);">Art How-To's</a>
+                    </li>
+                </ul>
+            </div>
+      </nav>
+
+
+      <section id="articles">
+        <div class="row" id="directions">
+          <h3>Click an option to view a guided how-to on its art technique:</h3>
+        </div>
+        
+        <div class="row" id="article-selection">
+          <button class="col selected-option" id="papermache" style="background-color: orange; border: solid orange 1px; border-radius: 5px;" onclick="selectArticle(this)">
+            <h2 class="article-title">Paper Mache</h2>
+          </button>
+          <button class="col" id="collages" onclick="selectArticle(this)">
+            <h2 class="article-title">Collages</h2>
+          </button>
+          <button class="col" id="landscapeart" onclick="selectArticle(this)">
+            <h2 class="article-title">Landscape Art</h2>
+          </button>
+          <button class="col" id="printmaking" onclick="selectArticle(this)">
+            <h2 class="article-title">Printmaking</h2>
+          </button>
+          <button class="col" id="papermaking" onclick="selectArticle(this)">
+            <h2 class="article-title">Papermaking</h2>
+          </button>
+        </div>
+
+        <div class="row article selected-article" id="papermache-article">
+          <h1>How to: Paper Mache</h1>
+
+          <p>Discover how easy it is to create amazing paper mache works of art. Start by deciding what you want to make—the possibilities are almost limitless with paper mache. Two of the more popular items to make are a pinata and volcano. When you know what you want to make, then create the base or form for your project.</p>
+
+          <h2>What You'll Need</h2>
+
+          <ul class="materials">
+            <li>Recycables (i.e., cardboard, balloons)</li>
+            <li>Newspaper</li>
+            <li>Flour</li>
+            <li>Water</li>
+            <li>Scissors</li>
+            <li>Bowl</li>
+            <li>Whisk</li>
+            <li>Tape</li>
+            <li>Paint or other decorative art supplies</li>
+          </ul>
+
+          <h2>Instructions</h2>
+
+          <ol class="instructions">
+            <li>
+              Make your base form using your recycables. It can be any shape or size that you desire! You can use tape to attach different recycables together.
+            </li>
+            <li>
+              To prepare the paste, Combine the flour and water in a large bowl and stir it well. You want the mixture to be thin, with a consistency similar to pancake batter.
+            </li>
+            <li>
+              Continue to mix until there are very few lumps left. Use a whisk or a hand-held blender to remove any remaining lumps. If you live in an area with high humidity, add a few tablespoons of salt to the batter. This prevents mold from forming.
+            </li>
+            <li>
+              Cut or rip the newspaper into strips. Note that torn strips lay smoother on the form. The length of your strips may vary depending on the size of your project; however, you will want your strips to be about 1 to 2 inches wide.
+            </li>
+            <li>
+              Dip one piece of newspaper at a time into the paper mache paste. You want the newspaper strip to be saturated. Hold the saturated strip over the paste bowl and run it through your fingers to squeeze off any excess paste.
+            </li>
+            <li>
+              Stick the newspaper strip over your form and smooth it down with your fingers. Completely cover your form with a layer of the saturated newspaper strips. They should all be over-lapping and running in different directions. After one layer is applied, let it dry completely. This can take up to 24 hours.
+            </li>
+            <li>
+              Once the first layer is dry, apply a second layer of newspaper strips and let it dry completely. Repeat this process until you get the desired look, but you should have at least three layers of newspaper strips. Again, let each layer dry completely.
+            </li>
+            <li>
+              Once all of the paper mache layers are applied and dried, you are ready to paint, decorate, and proudly display your work of art.
+            </li>
+          </ol>
+
+          <iframe width="560" height="500" src="https://www.youtube.com/embed/MfgyaUNiibI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <div class="row article" id="collages-article" style="display: none;">
+          <h1>How to: Collages</h1>
+
+          <p>Collages are a fun and easy way to express yourself using paper, images, stickers, or small objects from around your house! Follow along to see how you can make your own collage!</p>
+
+          <h2>What You'll Need</h2>
+
+          <ul class="materials">
+            <li>Large, solid colored paper (i.e., construction/copy paper)</li>
+            <li>Images from magazines, printed, newspapers, photos etc.</li>
+            <li>Stickers</li>
+            <li>Other art supplies you would like to include</li>
+            <li>Scissors</li>
+            <li>Glue or double-sided tape</li>
+          </ul>
+
+          <h2>Instructions</h2>
+
+          <ol class="instructions">
+            <li>
+              Collect colorful paper. Choose a large, solid-colored piece of paper for the background and set aside.
+            </li>
+            <li>
+              Cut the other pieces of paper into different shapes.
+            </li>
+            <li>
+              Arrange the shapes on the background paper. Once you are happy with your composition, glue or tape the pieces onto the background.
+            </li>
+          </ol>
+
+          <iframe width="560" height="500" src="https://www.youtube.com/embed/m4aiLp3ZdAs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+
+        <div class="row article" id="landscapeart-article" style="display: none;">
+
+          <h1>How to: Landscape Art</h1>
+
+          <p>Landscape Art is a great way to capture your surroudings instead of taking a photo. It allows you to express yourself and illustrate how you see the natural world. Follow along to learn how you can create your own ladnscape drawing or painting</p>
+
+          <h2>What You'll Need</h2>
+
+          <ul class="materials">
+            <li>Paint (acrylic, oil, or tempura) or Drawing utensils (markers, colored pencils, crayons, pastels)</li>
+            <li>Any size canvas or paper, preferably white</li>
+            <li>Paint brushes, if using paint</li>
+            <li>Water, if using paint</li>
+            <li>Paper towels, if using paint</li>
+            <li>Easel (optional)</li>
+          </ul>
+
+          <h2>Instructions</h2>
+
+          <ol class="instructions">
+            <li>
+              Choose a landscape/surrounding that you would like to capture.
+            </li>
+            <li>
+              Sit down at an area where you can observe your surroudings well.
+            </li>
+            <li>
+              Use your paint or drawing materials to illustrate what you see on your canvas. It can be exactly how it looks, or how you view it!
+            </li>
+          </ol>
+
+          <iframe width="560" height="500" src="https://www.youtube.com/embed/v368l7nAltE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+        </div>
+
+        <div class="row article" id="printmaking-article" style="display: none;">
+
+          <h1>How to: Relief Printmaking</h1>
+
+          <p>Printmaking is one of the oldest art forms, and there are several different types of printmaking. We are going to focus on relief printing, the oldest form of print making. In this artform, we carve or indent a design into something, cover it in paint or ink and essentially "stamp" it onto a canvas or piece of paper. Let's take a look at how we can use sheets of foam to print make!</p>
+
+          <h2>What You'll Need</h2>
+
+          <ul class="materials">
+            <li>Foam Sheets of any size</li>
+            <li>Canvas or paper larger than the foam sheet</li>
+            <li>Paint brush</li>
+            <li>Foam Roller</li>
+            <li>Acrylic paint</li>
+            <li>Water</li>
+            <li>Paper Towels</li>
+          </ul>
+
+          <h2>Instructions</h2>
+
+          <ol class="instructions">
+            <li>
+              Choose the design you would like to print onto your canvas.
+            </li>
+            <li>
+              Using the non-bristle end of a paint brush "carve" or indent the design into the foam sheet. Keep in mind that the design will print in reverse when you transfer it to your canvas!
+            </li>
+            <li>
+              Once the design is complete, choose the paint you would like to use and cover your foam sheet in paint using the foam roller. You may use a larger paint brush if no roller is available, but try not to paint inside the carved lines.
+            </li>
+            <li>
+              Once you have achieved your desired paint levels on your foam sheet, carefully take the foam sheet and press it, paint-side down, onto the new canvas or sheet of paper.
+            </li>
+            <li>
+              Once dry, you have your fully completed relief print!
+            </li>
+          </ol>
+
+          <iframe width="560" height="500" src="https://www.youtube.com/embed/2cCpfTOGp6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+
+        <div class="row article" id="papermaking-article" style="display: none;">
+          <h1>How to: Relief Papermaking</h1>
+
+          <p>Making paper is another one of the oldest art forms, and has been perfected over the many centuries of its existence! Paper has been used to record history, art, and many other things since it was created. We are going to take a look at one of the simplest ways to make paper as an art form using recycled paper, window screen, and old picture frame and water! You might need to get permission and help for your parents or an adult for this project!</p>
+
+          <h2>What You'll Need</h2>
+
+          <ul class="materials">
+            <li>An old picture frame</li>
+            <li>Window screening</li>
+            <li>Staple gun</li>
+            <li>Duct tape</li>
+            <li>Recycled Paper</li>
+            <li>Water</li>
+            <li>Tub, larger than the picture frame</li>
+            <li>Sponge</li>
+            <li>Blender</li>
+            <li>Bath towel</li>
+            <li>Paper towels</li>
+            <li>Hair dryer (optional)</li>
+            <li>Scissors</li>
+            <li>Cooking Spray (optional)</li>
+            <li>Visual textures, such as paint, newspaper, or magazine clippings</li>
+          </ul>
+
+          <h2>Instructions</h2>
+
+          <ol class="instructions">
+            <li>
+              Create your deckle, or paper mold. To do this, remove the glass and back of the picture frame, only leaving the wood frame. Cut a piece of window screen large enough to cover the frame's opening but smaller then the frame itself. Staple the window screen snipping to the frame and tape all four sides to seal the screen to the frame. Once complete, you have your mold and we can move on!
+            </li>
+            <li>
+              To create the pulp: tear up about 5 sheets of recycled paper. Place the paper in the blender, and add as much water as you can. The more water, the better! Run the blender for about 60 seconds. Then add your visual textures such as paint, newspaper or magazine clippings. Blend for a few more seconds but do not over blend! We want the texture to be visible in the final product.
+            </li>
+            <li>
+              Coat the deckle in cooking spray, if available. Place the deckle on the surface of your tub of water. Make sure not over fill the tub!
+            </li>
+            <li>
+              Next, pour your blended mixuture directly over your deckle. While it is in the tub, you can move things around in the screen, or even add more visual textures or elements.
+            </li>
+            <li>
+              When you have reached your desired look, remove the deckle from the tub and place it on a towel/paper towels. Place another sheet of window screen on top of the frame and use a sponge to soak up as much of the water from the deckle as possible. Be sure to frequently wring out the sponge into the tub.
+            </li>
+            <li>
+              Flip the deckle-screen sandwiched paper over and remove the deckle, leaving the paper on the extra screen. Place a paper towel over the paper, and flip again, removing the second screen. Place another sheet of paper towel over to sandwich the paper between two sheets of paper towels.
+            </li>
+            <li>
+              Press firmly all over the paper to allow the paper towels to soak up the remaining water. You can use textbooks, or heavy objects, or even an iron on low setting (with parental supervision!) to make this process easier. Wait 24 hours to allow the paper to dry completely on a bath towel. You may use a hair dryer on low to speed up this process, but beware: the paper may curl up when using heat – you can iron this out if needed.
+            </li>
+            <li>After 24 hours, you have your new, personalized piece of recycled paper!</li>
+          </ol>
+
+          <iframe width="560" height="500" src="https://www.youtube.com/embed/RR_218EtLJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+    </section>
+
+
+
+
+    
+
+     
+
+</body>
+</html>
