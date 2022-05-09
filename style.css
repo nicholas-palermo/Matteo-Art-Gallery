@@ -472,6 +472,10 @@ h3, h4, h5, p, a, ul, li {
             margin-bottom: 0;
         }
 
+        .my-artwork .artlabel {
+            margin-bottom: 4vh;
+        }
+
         .my-artwork div.frame-landscape, .my-artwork div.frame-portrait {
             box-shadow: 10px 10px 25px 3px rgba(0, 0, 0, 0.2);
         }
