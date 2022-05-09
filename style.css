@@ -469,7 +469,7 @@ h3, h4, h5, p, a, ul, li {
 
         .artLabel {
             margin-top: 2vh;
-            margin-bottom: 4vh;
+            margin-bottom: 0;
         }
 
         .my-artwork div.frame-landscape, .my-artwork div.frame-portrait {
@@ -487,6 +487,13 @@ h3, h4, h5, p, a, ul, li {
 
         .guest-artwork div.frame-landscape, .guest-artwork div.frame-portrait {
             box-shadow: 10px 10px 25px 3px rgba(0, 0, 10, 0.5);
+        }
+
+
+
+        h3.artistLabel {
+           font-size: 1em;
+            margin-bottom: 4vh;
         }
 
 
